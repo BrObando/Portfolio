@@ -1,0 +1,23 @@
+.home-container {
+    height: auto;
+    
+    background-image: url('../assets/designgiphy.gif');
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    text-align: left;
+    position: relative; 
+    z-index:1;
+    
+}
+  
+.text-container {
+    
+    max-width: 40%; /* Adjust as needed */
+    padding: 80px; /* Add some padding for better readability */
+    margin-left: 0px;
+}
