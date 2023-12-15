@@ -1,5 +1,5 @@
 import '../components/Footer.css'
-import './about.css';
+import './About.css';
 import { useState, useEffect } from "react";
 
 function About() {
