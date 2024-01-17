@@ -10,6 +10,12 @@
       "live": "https://app.netlify.app/whatever",
       "git": "http://www.github.com/username/reponame",
       "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+      "name": "project3",
+      "live": "https://app.netlify.app/whatever",
+      "git": "http://www.github.com/username/reponame",
+      "image": "http://www.imgur.com/pictureofproject.png"
     }
   ]
   

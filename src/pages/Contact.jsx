@@ -24,15 +24,15 @@ const Contact = () => {
           <br></br>
           <br></br>
           <br></br>
+          {/* <br></br>
+          <br></br> */}
+          {/* <br></br>
           <br></br>
           <br></br>
+          <br></br> */}
+          {/* <br></br>
           <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
+          <br></br> */}
           
           <h1>CONTACT</h1>
 
