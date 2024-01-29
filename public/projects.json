@@ -4,7 +4,7 @@
     "live": "https://biomedical-care-center-682cf492b4cf.herokuapp.com/",
     "git": "https://github.com/BrObando/Project-4",
     "description": "Welcome to the BIOMEDICAL CARE CENTER – an innovative platform dedicated to uniting blood donors and recipients in the noble pursuit of saving lives. 🦸‍♂️🦸‍♀️ Our mission is simple but powerful: make blood donation convenient, efficient, and impactful.",
-    "image": "/src/assets/Home.png"
+    "image": "/assets/Home.png"
   },
     
     {
