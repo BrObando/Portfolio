@@ -12,7 +12,7 @@
       "live": "https://perchstudio.netlify.app/",
       "git": "https://github.com/BrObando/Project_PErch",
       "description": "Perch Studio isn't just an app; it's a community committed to your well-being. Here, we believe that knowledge is the key to sustainable fitness, and our informational workouts are crafted to empower you every step of the way. Embark on a fitness adventure with our collection of informational workouts and tutorials. Whether you're a beginner or a seasoned pro, our curated content is designed to empower you with knowledge, techniques, and motivation.",
-      "image": "/src/assets/perch.png"
+      "image": "/assets/perch.png"
       
     },
     {
@@ -20,14 +20,14 @@
       "live": "https://joystick-jury-b3d4a6748f01.herokuapp.com/",
       "git": "https://github.com/BrObando/Project-2",
       "description": "Welcome to Joystick Jury, a video game review site where you can discuss old and current video games & new releases! Genres include: Action 🥊, Sports 🏈🏀⚽️, Adventure💪, RPG🧍, Racing🏎️, Fighting🥷, and Simulation and Party👨‍👩‍👧‍👦🎉. Do you like Call of Duty? Visit the site and find new game plays! Or are you more of a Sims’ fan? Take a look and find how to install the craziest mods. Log-in or sign up today!",
-      "image": "/src/assets/joystick-jury-image.png"
+      "image": "/assets/joystick-jury-image.png"
     }, 
     {
       "name": "MASTERMIND",
       "live": "https://app.herokuapp.com/whatever",
       "git": "http://www.github.com/username/reponame",
       "description": "Mastermind is a classic board game of logic and deduction. In the game, one player creates a secret code consisting of a sequence of colored pegs, and the other player (or players) attempt to guess the code within a limited number of turns. In this version of the game Mastermind after each guess, the code-maker provides feedback to the code-breaker, indicating how many pegs are the correct color and in the correct position (marked with orange and purple) and how many pegs are the correct color but in the wrong position. The code-breaker continues making guesses and refining their deductions until they either solve the code or run out of attempts.",
-      "image": "/src/assets/Mastermind.png"
+      "image": "/assets/Mastermind.png"
     }
     
   ]
