@@ -30,6 +30,9 @@ const navStyle = {
         <Link to="/contact">
           <div>CONTACT</div>
         </Link>
+        <a href="/resume/Brianna_Obando_resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-nav">
+      RESUME
+    </a>
       </nav>
     </header>
   );
