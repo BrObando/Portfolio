@@ -1,10 +1,25 @@
+
+
 .about-container {
-    max-width: 700px;
-    margin: 100px;
+    display: flex;
+    max-width: 1000px;
+    margin: 100px auto;
     padding: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
+  }
+  
+  
+  .about-text {
+    flex: 1; 
+    max-width: 600px;
+  }
+  
+  
+  .headshot {
+    max-width: 500px;
+    flex: 1;
+    margin-left: 60px; 
+    background-image: url('../assets/headshot.jpg');
+    background-size: cover; 
+    background-position: center; 
+    
+  }

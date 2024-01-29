@@ -17,9 +17,8 @@
   
 .text-container {
     
-    max-width: 40%; /* Adjust as needed */
-    padding: 80px; /* Add some padding for better readability */
+    max-width: 40%; 
+    padding: 80px; 
     margin-left: 0px;
-    /* font-size: 78px;
-    text-align: center; */
+    
 }

@@ -1,32 +1,55 @@
 import './Projects.css';
 
 
+import { useState, useEffect } from "react";
+
+function Projects() {
+
+  const [projects, setProjects] = useState(null);
+
+
+  const getProjectsData = async () => {
+
+
+    const response = await fetch("./projects.json");
+
+
+    const data = await response.json();
+
+
+    setProjects(data);
+
+  };
 
   
-const Projects = (props) => {
-    const projects = [
-      { id: 1, title: 'MASTERMIND', description: 'Mastermind is a classic board game of logic and deduction. In the game, one player creates a secret code consisting of a sequence of colored pegs, and the other player (or players) attempt to guess the code within a limited number of turns. In this version of the game Mastermind after each guess, the code-maker provides feedback to the code-breaker, indicating how many pegs are the correct color and in the correct position (marked with orange and purple) and how many pegs are the correct color but in the wrong position. The code-breaker continues making guesses and refining their deductions until they either solve the code or run out of attempts.' },
-      { id: 2, title: 'JOYSTICKJURY', description: 'Description of Project 2' },
-      { id: 3, title: 'PERCH STUDIO', description: 'LUXURY FITNESS APP' },
-      
-      
-    ];
-  
-    return (
-      <div className="projects-container">
-        <ul className="projects-list">
-          {projects.map((project) => (
-            <ul key={project.id} className="project-item">
-              <h2>{project.title}</h2>
-              <img src={project.image}/>
-              <p>{project.description}</p>
-              <p>{project.live}</p>
-            </ul>
-          ))}
-        </ul>
-        <h1>PROJECTS</h1>
+  useEffect(() => {
+    getProjectsData() 
+  }, []);
+
+
+  const loaded = () => {
+    return (projects.map((project) => (
+      <div key={project.id} className="projects">
+        <h2>{project.name}</h2>
+        <hr></hr>
+        <br></br>
+        <img src={project.image} alt={project.name} className="projects-img"/>
+        
+        <p>{project.description}</p>
+        
+        <div className="button-container"><a href={project.git}>
+          <button>Github</button>
+        </a><a href={project.live}>
+          <button>Live Site</button>
+        </a></div>
+        
       </div>
-    );
+      
+    
+    )));
   };
-  
-  export default Projects;
+
+  return projects ? loaded() : <h1></h1>;
+}
+
+export default Projects;

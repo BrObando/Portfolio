@@ -1,7 +1,52 @@
-.projects-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
+.projects {
+  text-align: center; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+   margin: 100px auto; 
+  padding: 30px; */
+  background-color: black;
+  border-radius: 1px;
+  width: 1850px;
+}
+
+.projects h2 {
+  margin-bottom: 15px; 
+  margin-top: 0px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  font-weight: 100;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 100px auto;
+}
+
+.projects-img {
   
-  
+  border-radius: 40px;
+}
+
+.projects a {
+  text-decoration: none;
+  margin-top: 5px; 
+}
+
+.projects button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #000000;
+  color: #ECE3CE;
+  border: 2px solid #ECE3CE;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.projects button:hover {
+  background-color: #000000;
+  color: #717070;
+}
+
+.button-container a,
+.button-container button {
+  margin-right: 10px; 
+}
